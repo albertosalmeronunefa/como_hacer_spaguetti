@@ -9,10 +9,13 @@ function miFuncion()
 	respuesta = prompt("agrega agua")
 	}
      alert("haz agregado " + respuesta + " en una " + recipiente);
-    } 
-
-    
-    function sabor()
+      function aviso_1(){
+       alert("el "+ respuesta + " esta hirviendo!! por favor siga al siguiente paso!!");
+       
+     }
+    setTimeout(aviso_1,3000);
+} 
+     function sabor()
     {
 		var salar;
 	while(salar!="sal"){
@@ -22,7 +25,12 @@ function miFuncion()
     while(aceitar!="aceite"){
 	aceitar = prompt("agrega aceite")
 	}
-     alert("haz agregado " + salar + " y " + aceitar);
+      alert("haz agregado " + salar + " y " + aceitar + " espere que agua hierva para ir al siguiente paso!");
+	 function aviso_2(){
+       alert("el agua esta hirviendo y lista para colocar el spaguetti!! por favor siga al siguiente paso!!");
+       
+     }
+    setTimeout(aviso_2,1800);
     } 
 		
 function spaguetti()
@@ -41,10 +49,10 @@ function spaguetti()
 		cubierto= prompt("tome un utensilio preferiblemente tenedor!!")
 		}
     function aviso_final(){
-       alert("esta listo el "+ pasta + " bon apetit!!!! profesor hasta aqui es mi algoritmo");
+       alert("el "+ pasta + " esta listo profesor bon apetit!!!! profesor hasta aqui es mi algoritmo");
        
      }
-    setTimeout(aviso_final,10000);
+    setTimeout(aviso_final,4000);
 
 }
 

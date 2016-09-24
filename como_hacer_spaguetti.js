@@ -13,7 +13,7 @@ function miFuncion()
        alert("el "+ elemento + " esta hirviendo!! por favor siga al siguiente paso!!");
        
      }
-    setTimeout(aviso_1,3000);
+    setTimeout(aviso_1,1800);
 } 
      function sabor()
     {

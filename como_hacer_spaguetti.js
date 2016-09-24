@@ -44,7 +44,7 @@ function spaguetti()
        alert("esta listo el "+ pasta + " bon apetit!!!! profesor hasta aqui es mi algoritmo");
        
      }
-    setTimeout(example,10000);
+    setTimeout(aviso_final,10000);
 
 }
 

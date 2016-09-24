@@ -40,7 +40,7 @@ function spaguetti()
     while(cubierto!="tenedor"){
 		cubierto= prompt("tome un utensilio preferiblemente tenedor!!")
 		}
-    function example(){
+    function aviso_final(){
        alert("esta listo el "+ pasta + " bon apetit!!!! profesor hasta aqui es mi algoritmo");
        
      }

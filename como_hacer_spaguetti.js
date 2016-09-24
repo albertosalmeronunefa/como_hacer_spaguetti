@@ -10,7 +10,7 @@ function miFuncion()
 	}
      alert("haz agregado " + elemento + " en una " + recipiente +" Por favor espere a que el agua hierva!!");
       function aviso_1(){
-       alert("el "+ respuesta + " esta hirviendo!! por favor siga al siguiente paso!!");
+       alert("el "+ elemento + " esta hirviendo!! por favor siga al siguiente paso!!");
        
      }
     setTimeout(aviso_1,3000);

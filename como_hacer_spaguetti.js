@@ -52,7 +52,7 @@ function spaguetti()
        alert("el "+ pasta + " esta listo profesor bon apetit!!!! profesor hasta aqui es mi algoritmo");
        
      }
-    setTimeout(aviso_final,4000);
+    setTimeout(aviso_final,2500);
 
 }
 

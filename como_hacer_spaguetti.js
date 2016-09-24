@@ -4,11 +4,11 @@ function miFuncion()
 	while(recipiente!="olla"){
 	recipiente = prompt("coloca un recipiente preferiblemente una olla!!!")
 	}
-    var respuesta;
-    while(respuesta!="agua"){
-	respuesta = prompt("agrega agua")
+    var elemento;
+    while(elemento!="agua"){
+	elemento = prompt("agrega agua")
 	}
-     alert("haz agregado " + respuesta + " en una " + recipiente);
+     alert("haz agregado " + elemento + " en una " + recipiente +" Por favor espere a que el agua hierva!!");
       function aviso_1(){
        alert("el "+ respuesta + " esta hirviendo!! por favor siga al siguiente paso!!");
        

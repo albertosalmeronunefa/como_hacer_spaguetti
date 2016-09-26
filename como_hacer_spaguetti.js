@@ -25,7 +25,7 @@ function miFuncion()
     while(aceitar!="aceite"){
 	aceitar = prompt("agrega aceite")
 	}
-      alert("haz agregado " + salar + " y " + aceitar + " espere que agua hierva para ir al siguiente paso!");
+      alert("haz agregado " + salar + " y " + aceitar + " espere que el agua hierva para ir al siguiente paso!");
 	 function aviso_2(){
        alert("el agua esta hirviendo y lista para colocar el spaguetti!! por favor siga al siguiente paso!!");
        

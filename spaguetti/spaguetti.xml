@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        
+<record id="spaguetti_spaguetti_form" model="ir.ui.view"> 
+             <field name="name">spaguetti.spaguetti.form</field>
+             <field name="model">spaguetti.spaguetti</field>  
+             <field name="type">form</field>
+             <field name="arch" type="xml">
+                  <form string="spaguetti">
+                     <group>
+                        <field name="recipiente" />
+                        <field name="elemento" />
+                        <field name="condimento1" />
+                        <field name="condimento2" />
+                        <field name="pasta" />
+                        <field name="salsa" />
+                        <field name="active" />
+                     
+                     
+                     </group>
+                  
+                  
+                  </form>
+             
+             </field> 
+           </record> 
+          
+<record id="spaguetti_spaguetti_tree" model="ir.ui.view"> 
+             <field name="name">spaguetti.spaguetti.tree</field>
+             <field name="model">spaguetti.spaguetti</field>
+             <field name="type">tree</field>
+             <field name="arch" type="xml">
+                 <tree string="spaguetti">
+                 
+                   <field name="recipiente" />
+                   <field name="elemento" />
+                   <field name="condimento1" />
+                   <field name="condimento2" />
+                   <field name="pasta" />
+                   <field name="salsa" />
+                   <field name="active" />                 
+                 
+                 </tree>
+             </field> 
+              
+           </record> 
+          
+          <record model="ir.actions.act_window" id="action_hacer_spaguetti">
+            <field name="name">hacer spaguetti</field>
+            <field name="res_model">spaguetti.spaguetti</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+           
+           <menuitem 
+           name="hacer spaguetti" 
+           id="hs_hacer_spaguetti_horizontal_menu" 
+           sequence="5" 
+           />
+           
+           <menuitem 
+           name="inicio "
+           parent="hs_hacer_spaguetti_horizontal_menu" 
+           id="hs_inicio_vertical_menu"
+           sequence="10" 
+           />
+           
+           <menuitem 
+           name="registro de pasta" 
+           id="hs_pasta_subvertical_menu" 
+           action="action_hacer_spaguetti"
+           parent="hs_inicio_vertical_menu"
+           sequence="10" 
+           />
+       
+    </data>
+</openerp>

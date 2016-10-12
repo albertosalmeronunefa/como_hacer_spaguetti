@@ -14,7 +14,7 @@ class spaguetti(osv.osv):
         'condimento2': fields.char('condimento 2', required=True, help='Aquí se coloca el aceite'),
         'pasta': fields.char('pasta', required=True, help='Aquí se coloca la pasta'),
         'salsa': fields.char('salsa', required=True, help='Aquí se coloca la salsa'),
-        'active': fields.boolean('cocinanado'),
+        'active': fields.boolean('cocinando'),
         
     }
     
